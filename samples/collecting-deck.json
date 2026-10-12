@@ -1,0 +1,195 @@
+{
+  "decks": [
+    {
+      "id": "deck-collecting",
+      "name": "Collecting · 收藏",
+      "description": "IELTS-style article: why people collect things (4 paragraphs, 23 vocabulary cards)"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c-collecting-01",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "collect",
+      "back": "v. 收集；收藏\ne.g. People collect all sorts of things.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-02",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "fridge magnet",
+      "back": "n. 冰箱贴\ne.g. I collect fridge magnets, so my fridge has slowly become a colourful map.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-03",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "fond memories",
+      "back": "n. 美好的回忆\ne.g. I have fond memories of collecting rocks and shells from the beach.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-04",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "souvenir",
+      "back": "n. 纪念品\ne.g. Others bring home souvenirs from their travels.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-05",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "fossil",
+      "back": "n. 化石\ne.g. Some people collect natural objects such as fossils and interesting stones.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-06",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "miniature",
+      "back": "adj. 微型的；缩小的\ne.g. People collect miniature versions of real commercial products.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-07",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "scaled-down",
+      "back": "adj. 按比例缩小的\ne.g. scaled-down retro toys, classic board games and action figures.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-08",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "retro",
+      "back": "adj. 复古的\ne.g. scaled-down retro toys.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-09",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "action figure",
+      "back": "n. 可动人偶；手办\ne.g. scaled-down retro toys, classic board games and action figures.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-10",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "collectable",
+      "back": "n./adj. 收藏品；值得收藏的\ne.g. Collectables can be both decorative and functional.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-11",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "nostalgic",
+      "back": "adj. 怀旧的；怀念的\ne.g. Giving us something nostalgic to look at or fiddle with.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-12",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "fiddle with",
+      "back": "phr. 摆弄；拨弄\ne.g. Something nostalgic to look at or fiddle with when bored.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-13",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "a sense of achievement",
+      "back": "n. 成就感\ne.g. Collecting gives us a sense of order and achievement.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-14",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "in control",
+      "back": "phr. 有掌控感；处于掌控之中\ne.g. Collecting can help people feel more in control.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-15",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "extension of identity",
+      "back": "n. 身份的延伸\ne.g. Collections can become an extension of our identity.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-16",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "minimalism",
+      "back": "n. 极简主义\ne.g. Advocates of minimalism argue that owning fewer possessions improves wellbeing.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-17",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "hoard",
+      "back": "v. 囤积\ne.g. Filling our homes with collections can seem like unnecessarily hoarding clutter.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-18",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "clutter",
+      "back": "n. 杂物；杂乱\ne.g. Filling our homes with collections can seem like hoarding clutter.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-19",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "curate",
+      "back": "v. 精心挑选；策展\ne.g. There is a distinction between thoughtfully curating your collection and accumulating.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-20",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "accumulate",
+      "back": "v. 积累；积聚\ne.g. Thoughtfully curating your collection vs. simply accumulating more possessions.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-21",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "excessive spending",
+      "back": "n. 过度消费\ne.g. Some collectors can be drawn into excessive spending.",
+      "tags": ["collecting", "phrase"]
+    },
+    {
+      "id": "c-collecting-22",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "rare",
+      "back": "adj. 稀有的；罕见的\ne.g. Companies release new or rare additions to collections.",
+      "tags": ["collecting"]
+    },
+    {
+      "id": "c-collecting-23",
+      "deckId": "deck-collecting",
+      "type": "basic",
+      "front": "self-portrait",
+      "back": "n. 自画像\ne.g. Happiful describes collections as a kind of self-portrait.",
+      "tags": ["collecting"]
+    }
+  ]
+}
