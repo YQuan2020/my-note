@@ -25,6 +25,8 @@ export async function initSchema(): Promise<void> {
       text TEXT,
       audio_data TEXT,
       tts_lang TEXT,
+      front_image TEXT,
+      back_image TEXT,
       tags TEXT[] NOT NULL DEFAULT '{}',
       state TEXT NOT NULL DEFAULT 'new',
       reps INTEGER NOT NULL DEFAULT 0,
@@ -34,6 +36,12 @@ export async function initSchema(): Promise<void> {
       created_at BIGINT NOT NULL,
       last_reviewed BIGINT
     );
+  `)
+
+  // Columns added after the initial schema; safe to run on existing databases.
+  await pool.query(`
+    ALTER TABLE cards ADD COLUMN IF NOT EXISTS front_image TEXT;
+    ALTER TABLE cards ADD COLUMN IF NOT EXISTS back_image TEXT;
   `)
 }
 
@@ -56,6 +64,8 @@ export function rowToCard(row: Record<string, unknown>): Card {
     text: (row.text as string) ?? undefined,
     audioData: (row.audio_data as string) ?? undefined,
     ttsLang: (row.tts_lang as string) ?? undefined,
+    frontImage: (row.front_image as string) ?? undefined,
+    backImage: (row.back_image as string) ?? undefined,
     tags: (row.tags as string[]) ?? [],
     state: row.state as Card['state'],
     reps: Number(row.reps),
@@ -70,10 +80,10 @@ export function rowToCard(row: Record<string, unknown>): Card {
 
 export const CARD_INSERT_SQL = `
   INSERT INTO cards
-    (id, deck_id, type, front, back, text, audio_data, tts_lang, tags,
-     state, reps, ease, interval_days, due, created_at)
+    (id, deck_id, type, front, back, text, audio_data, tts_lang, front_image,
+     back_image, tags, state, reps, ease, interval_days, due, created_at)
   VALUES
-    ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15)
+    ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17)
 `
 
 export function cardInsertParams(card: Card): unknown[] {
@@ -86,6 +96,8 @@ export function cardInsertParams(card: Card): unknown[] {
     card.text ?? null,
     card.audioData ?? null,
     card.ttsLang ?? null,
+    card.frontImage ?? null,
+    card.backImage ?? null,
     card.tags,
     card.state,
     card.reps,

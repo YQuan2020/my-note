@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { useStore } from '../store'
+import { compressImage, uploadImage } from '../lib/image'
 import type { CardType } from '../lib/types'
 
 const TYPES: { value: CardType; label: string }[] = [
@@ -8,6 +9,43 @@ const TYPES: { value: CardType; label: string }[] = [
   { value: 'cloze', label: 'Cloze' },
   { value: 'audio', label: 'Audio' },
 ]
+
+function ImageField({
+  label,
+  value,
+  onChange,
+  onPick,
+}: {
+  label: string
+  value: string
+  onChange: (url: string) => void
+  onPick: (file: File) => void
+}) {
+  return (
+    <div className="field">
+      <span>{label}</span>
+      <input
+        type="file"
+        accept="image/*"
+        onChange={(e) => {
+          const f = e.target.files?.[0]
+          if (f) onPick(f)
+          e.target.value = ''
+        }}
+      />
+      {value ? (
+        <div className="image-preview">
+          <img src={value} alt={label} />
+          <button type="button" className="btn btn-sm" onClick={() => onChange('')}>
+            Remove
+          </button>
+        </div>
+      ) : (
+        <small className="hint">Optional. Resized & compressed before upload.</small>
+      )}
+    </div>
+  )
+}
 
 export default function CardEditor() {
   const { deckId, cardId } = useParams<{ deckId: string; cardId?: string }>()
@@ -26,6 +64,8 @@ export default function CardEditor() {
   const [tags, setTags] = useState((existing?.tags ?? []).join(', '))
   const [audioData, setAudioData] = useState(existing?.audioData ?? '')
   const [ttsLang, setTtsLang] = useState(existing?.ttsLang ?? 'en-US')
+  const [frontImage, setFrontImage] = useState(existing?.frontImage ?? '')
+  const [backImage, setBackImage] = useState(existing?.backImage ?? '')
 
   if (!deck) return <div className="page">Deck not found</div>
 
@@ -33,6 +73,16 @@ export default function CardEditor() {
     const reader = new FileReader()
     reader.onload = () => setAudioData(String(reader.result))
     reader.readAsDataURL(f)
+  }
+
+  const onImage = async (f: File, side: 'front' | 'back') => {
+    try {
+      const url = await uploadImage(await compressImage(f))
+      if (side === 'front') setFrontImage(url)
+      else setBackImage(url)
+    } catch (e) {
+      alert(String(e))
+    }
   }
 
   const save = async (e: React.FormEvent) => {
@@ -45,6 +95,8 @@ export default function CardEditor() {
       front,
       back,
       tags: tagList,
+      frontImage: frontImage || undefined,
+      backImage: backImage || undefined,
       ...(type === 'cloze' ? { text } : {}),
       ...(type === 'audio' ? { audioData: audioData || undefined, ttsLang } : {}),
     }
@@ -142,6 +194,19 @@ export default function CardEditor() {
             </label>
           </>
         )}
+
+        <ImageField
+          label="Front image (optional)"
+          value={frontImage}
+          onChange={setFrontImage}
+          onPick={(f) => void onImage(f, 'front')}
+        />
+        <ImageField
+          label="Back image (optional)"
+          value={backImage}
+          onChange={setBackImage}
+          onPick={(f) => void onImage(f, 'back')}
+        />
 
         <label className="field">
           <span>Tags (comma-separated, optional)</span>

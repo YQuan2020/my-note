@@ -1,3 +1,5 @@
+import fs from 'fs'
+import path from 'path'
 import express from 'express'
 import type { NextFunction, Request, Response } from 'express'
 import {
@@ -18,6 +20,11 @@ app.use(express.json({ limit: '50mb' }))
 
 const PORT = Number(process.env.PORT || 3000)
 
+// Card images are written to a local folder and served back as static files
+// (rather than stored in the database).
+const UPLOAD_DIR = process.env.UPLOAD_DIR || path.resolve(process.cwd(), 'uploads')
+app.use('/api/uploads', express.static(UPLOAD_DIR))
+
 const ah =
   (fn: (req: Request, res: Response) => Promise<unknown>) =>
   (req: Request, res: Response, next: NextFunction) =>
@@ -34,6 +41,8 @@ function newCard(deckId: string, data: Partial<Card>): Card {
     text: data.text ?? undefined,
     audioData: data.audioData ?? undefined,
     ttsLang: data.ttsLang ?? undefined,
+    frontImage: data.frontImage ?? undefined,
+    backImage: data.backImage ?? undefined,
     tags: data.tags ?? [],
     state: 'new',
     reps: 0,
@@ -44,10 +53,41 @@ function newCard(deckId: string, data: Partial<Card>): Card {
   }
 }
 
+function removeUpload(url?: string | null): void {
+  if (!url) return
+  const prefix = '/api/uploads/'
+  if (!url.startsWith(prefix)) return
+  const name = path.basename(url.slice(prefix.length))
+  if (!name) return
+  fs.promises.unlink(path.join(UPLOAD_DIR, name)).catch(() => {})
+}
+
 async function main() {
+  fs.mkdirSync(UPLOAD_DIR, { recursive: true })
   await initSchema()
 
   app.get('/api/health', (_req, res) => res.json({ ok: true }))
+
+  // Upload a card image (base64 data URL) → write to disk, return its URL.
+  app.post(
+    '/api/images',
+    ah(async (req, res) => {
+      const { data } = req.body as { data?: string }
+      const m =
+        typeof data === 'string'
+          ? data.match(/^data:image\/(png|jpe?g|webp|gif);base64,([A-Za-z0-9+/=]+)$/)
+          : null
+      if (!m) return res.status(400).json({ error: 'invalid image data URL' })
+      const buf = Buffer.from(m[2], 'base64')
+      if (buf.length === 0 || buf.length > 5 * 1024 * 1024) {
+        return res.status(413).json({ error: 'image too large' })
+      }
+      const ext = m[1] === 'jpeg' ? 'jpg' : m[1]
+      const name = `${uid()}.${ext}`
+      await fs.promises.writeFile(path.join(UPLOAD_DIR, name), buf)
+      res.json({ url: `/api/uploads/${name}` })
+    }),
+  )
 
   // Load everything (used by the frontend bootstrap).
   app.get(
@@ -170,18 +210,28 @@ async function main() {
   app.put(
     '/api/cards/:id',
     ah(async (req, res) => {
-      const { front, back, text, audioData, ttsLang, tags } = req.body as {
-        front?: string
-        back?: string
-        text?: string
-        audioData?: string
-        ttsLang?: string
-        tags?: string[]
-      }
+      const { front, back, text, audioData, ttsLang, tags, frontImage, backImage } =
+        req.body as {
+          front?: string
+          back?: string
+          text?: string
+          audioData?: string
+          ttsLang?: string
+          tags?: string[]
+          frontImage?: string
+          backImage?: string
+        }
+      const old = await pool.query(
+        'SELECT front_image, back_image FROM cards WHERE id=$1',
+        [req.params.id],
+      )
+      const oldFront = old.rows[0]?.front_image as string | undefined
+      const oldBack = old.rows[0]?.back_image as string | undefined
       await pool.query(
         `UPDATE cards
-           SET front=$1, back=$2, text=$3, audio_data=$4, tts_lang=$5, tags=$6
-         WHERE id=$7`,
+           SET front=$1, back=$2, text=$3, audio_data=$4, tts_lang=$5, tags=$6,
+               front_image=$7, back_image=$8
+         WHERE id=$9`,
         [
           front ?? '',
           back ?? '',
@@ -189,9 +239,14 @@ async function main() {
           audioData ?? null,
           ttsLang ?? null,
           tags ?? [],
+          frontImage ?? null,
+          backImage ?? null,
           req.params.id,
         ],
       )
+      // Delete replaced/removed image files (the editor always sends both fields).
+      if (oldFront && oldFront !== frontImage) removeUpload(oldFront)
+      if (oldBack && oldBack !== backImage) removeUpload(oldBack)
       const r = await pool.query('SELECT * FROM cards WHERE id=$1', [
         req.params.id,
       ])
@@ -202,7 +257,16 @@ async function main() {
   app.delete(
     '/api/cards/:id',
     ah(async (req, res) => {
+      const r = await pool.query(
+        'SELECT front_image, back_image FROM cards WHERE id=$1',
+        [req.params.id],
+      )
+      const row = r.rows[0]
       await pool.query('DELETE FROM cards WHERE id=$1', [req.params.id])
+      if (row) {
+        removeUpload(row.front_image as string | undefined)
+        removeUpload(row.back_image as string | undefined)
+      }
       res.json({ ok: true })
     }),
   )

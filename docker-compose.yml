@@ -23,6 +23,8 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    volumes:
+      - uploads:/app/uploads
     ports:
       - "3000:3000"
 
@@ -38,3 +40,4 @@ services:
 
 volumes:
   pgdata:
+  uploads:

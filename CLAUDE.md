@@ -40,8 +40,11 @@ docker compose down -v        # stop AND wipe the database
 
 **Duplicated types must stay in sync.** `Card`/`Deck`/`Rating` are defined in both `src/lib/types.ts` (frontend) and `server/src/types.ts` (backend). Any schema change requires updating both.
 
-**Database schema** is created on backend startup with `CREATE TABLE IF NOT EXISTS` in `server/src/db.ts` — there is no migration tool. Two gotchas:
+**Database schema** is created on backend startup with `CREATE TABLE IF NOT EXISTS` in `server/src/db.ts` — there is no migration tool. Gotchas:
 - The `interval` column is named `interval_days` (because `interval` is a reserved SQL keyword), mapped to `Card.interval` via `rowToCard`.
 - `tags` is a Postgres `TEXT[]` column (passed as a JS array).
+- Later-added columns (`front_image`, `back_image`) are applied to existing DBs with idempotent `ALTER TABLE … ADD COLUMN IF NOT EXISTS` statements in `initSchema()`.
 
 **Import merges, not replaces.** `POST /api/state` (the top-bar "Import" button) regenerates IDs and appends decks/cards to existing data — it does not wipe the DB. `samples/collecting-deck.json` is a ready-to-import deck bundle in this format (`{ decks, cards }` with `deckId` references).
+
+**Card images live on disk, not in the DB.** Cards have optional `frontImage`/`backImage` fields holding a URL path (`/api/uploads/<id>.<ext>`), not image bytes. The frontend compresses images (canvas resize → JPEG, `src/lib/image.ts`) and uploads them via `POST /api/images` (base64 data URL → file in `server/uploads/`); the backend serves that folder at `/api/uploads` via `express.static`. In Docker the folder is `/app/uploads` (mounted as the `uploads` volume). Card update/delete removes replaced/removed files (`removeUpload` in `server/src/index.ts`).

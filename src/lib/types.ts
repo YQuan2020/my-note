@@ -23,6 +23,10 @@ export interface Card {
   audioData?: string
   /** TTS 语言，默认 en-US */
   ttsLang?: string
+  /** 正面图片 URL（图片文件存后端 uploads 目录，数据库只存路径） */
+  frontImage?: string
+  /** 背面图片 URL */
+  backImage?: string
   tags: string[]
   // SRS 状态
   state: CardState

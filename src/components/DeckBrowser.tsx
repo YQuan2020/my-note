@@ -92,8 +92,13 @@ export default function DeckBrowser() {
           filtered.map((c) => (
             <div className="card-row" key={c.id}>
               <div className="card-row-main">
-                <div className="card-row-front">{preview(c)}</div>
-                <div className="card-row-back">{c.back || renderClozeFront(c.text || '')}</div>
+                {c.frontImage && (
+                  <img src={c.frontImage} className="card-row-img" alt="" />
+                )}
+                <div className="card-row-text">
+                  <div className="card-row-front">{preview(c)}</div>
+                  <div className="card-row-back">{c.back || renderClozeFront(c.text || '')}</div>
+                </div>
               </div>
               <div className="card-row-meta">
                 <span className="badge">{c.type === 'cloze' ? 'cloze' : c.type}</span>

@@ -18,6 +18,8 @@ export interface Card {
   text?: string
   audioData?: string
   ttsLang?: string
+  frontImage?: string
+  backImage?: string
   tags: string[]
   state: CardState
   reps: number

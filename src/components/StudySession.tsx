@@ -15,6 +15,7 @@ const RATINGS: { key: Rating; label: string; hint: string }[] = [
 
 function CardFace({ card, revealed }: { card: Card; revealed: boolean }) {
   const { speak } = useTts()
+  const shownImage = revealed ? card.backImage : card.frontImage
 
   if (card.type === 'cloze') {
     const text = card.text || card.front
@@ -22,6 +23,7 @@ function CardFace({ card, revealed }: { card: Card; revealed: boolean }) {
       <div className="face">
         <div className="card-kind">Cloze</div>
         <div className="face-text">{revealed ? renderClozeBack(text) : renderClozeFront(text)}</div>
+        {shownImage && <img src={shownImage} className="card-image" alt="" />}
         {revealed && card.back && <div className="face-back">{card.back}</div>}
       </div>
     )
@@ -46,6 +48,7 @@ function CardFace({ card, revealed }: { card: Card; revealed: boolean }) {
         {!revealed && card.audioData && (
           <audio controls src={card.audioData} className="audio-player" />
         )}
+        {shownImage && <img src={shownImage} className="card-image" alt="" />}
         {revealed && <div className="face-front-ref">{card.front}</div>}
       </div>
     )
@@ -55,6 +58,7 @@ function CardFace({ card, revealed }: { card: Card; revealed: boolean }) {
     <div className="face">
       <div className="card-kind">Basic</div>
       <div className="face-text">{revealed ? card.back : card.front}</div>
+      {shownImage && <img src={shownImage} className="card-image" alt="" />}
       {revealed && card.back && <div className="face-back">{card.front}</div>}
     </div>
   )

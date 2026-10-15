@@ -1,0 +1,1627 @@
+{
+  "decks": [
+    {
+      "id": "deck-kemu1",
+      "name": "科目一 · 驾照理论（完整版）",
+      "description": "自编科目一练习题库（约150题），单选/判断混排，按分类。基于现行道路交通安全法规及2022年新记分规则整理，仅供参考，非官方题库，请以驾考宝典/车管所官方题库为准。不含需看图识别的标志/交警手势题。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "c-kemu1-001",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶机动车必须携带机动车驾驶证和行驶证。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-002",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车号牌应当按照规定悬挂并保持清晰、完整，不得故意遮挡、污损。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-003",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶机动车时，不得拨打接听手持电话、观看电视等妨碍安全驾驶的行为。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-004",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：饮酒后只要意识清醒，就可以驾驶机动车。",
+      "back": "错误\n饮酒后不得驾驶机动车。",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-005",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：醉酒驾驶机动车的，依法追究刑事责任，并吊销机动车驾驶证。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-006",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车上路行驶应当投保机动车交通事故责任强制保险（交强险）。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-007",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车应当按照规定定期进行安全技术检验。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-008",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：已注册登记的机动车改变车身颜色、更换发动机等，应当办理变更登记。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-009",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：伪造、变造或者使用伪造、变造的机动车号牌、行驶证、驾驶证的，由公安机关依法收缴、扣留机动车并处罚。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-010",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：饮酒驾驶的血液酒精含量标准是？\nA. ≥20mg/100ml\nB. ≥80mg/100ml\nC. ≥20 且 <80mg/100ml\nD. 任意",
+      "back": "答案：C\n饮酒驾驶：≥20 且 <80mg/100ml；醉酒驾驶：≥80mg/100ml。",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-011",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：初次申领机动车驾驶证后的 12 个月为实习期。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-012",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车驾驶证的有效期分为 6 年、10 年和长期。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-013",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶证的记分周期为 12 个月，自初次领取驾驶证之日起计算。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-014",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车驾驶证遗失、损毁的，应当及时申请补发。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-015",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在实习期内驾驶机动车上高速公路行驶，应当由持相应或者更高准驾车型驾驶证 3 年以上的驾驶人陪同。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-016",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：年满 18 周岁可以申请小型汽车（C1）驾驶证。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-017",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶人在一个记分周期内记满 12 分的，应当？\nA. 继续开车\nB. 参加道路交通安全法律法规学习并考试\nC. 只交罚款即可\nD. 注销驾驶证",
+      "back": "答案：B\n记满12分需参加满分学习并通过考试后，方可重新取得驾驶资格。",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-018",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：饮酒后驾驶机动车，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：D（12 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-019",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：使用伪造、变造的机动车号牌、行驶证，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：D（12 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-020",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：造成交通事故后逃逸，尚不构成犯罪的，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：D（12 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-021",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车在高速公路上行驶超过规定时速 50% 以上，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：D（12 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-022",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车在高速公路、城市快速路上倒车、逆行、穿越中央分隔带掉头，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：D（12 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-023",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶与准驾车型不符的机动车，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：C（9 分）\n2022年新规由12分降为9分。",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-024",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：未悬挂机动车号牌，或者故意遮挡、污损号牌，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：C（9 分）\n2022年新规由12分降为9分。",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-025",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车不按交通信号灯指示通行（闯红灯），一次记几分？\nA. 1 分\nB. 3 分\nC. 6 分\nD. 9 分",
+      "back": "答案：C（6 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-026",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车在高速公路、城市快速路上行驶超过规定时速 20% 以上未达 50%，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：B（6 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-027",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车不按规定避让校车，一次记几分？\nA. 1 分\nB. 3 分\nC. 6 分\nD. 9 分",
+      "back": "答案：B（3 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-028",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车违反禁令标志、禁止标线指示的，一次记几分？\nA. 1 分\nB. 3 分\nC. 6 分\nD. 9 分",
+      "back": "答案：A（1 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-029",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车未按规定使用安全带，一次记几分？\nA. 1 分\nB. 3 分\nC. 6 分\nD. 9 分",
+      "back": "答案：A（1 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-030",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：记分达到 12 分的，驾驶证将被扣留，驾驶人应当参加学习和考试。",
+      "back": "正确",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-031",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：没有道路中心线的城市道路，最高车速不得超过 30km/h。",
+      "back": "正确\n没有中心线：城市30、公路40。",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-032",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：没有道路中心线的公路，最高车速不得超过 40km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-033",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：同方向只有 1 条机动车道的城市道路，最高车速不得超过 50km/h。",
+      "back": "正确\n同方向1条道：城市50、公路70。",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-034",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：同方向只有 1 条机动车道的公路，最高车速不得超过 70km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-035",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：高速公路小型载客汽车最高车速不得超过 120km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-036",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：高速公路最低车速不得低于 60km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-037",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：通过铁路道口、急弯路、窄路、窄桥、隧道时，最高车速不得超过 30km/h。",
+      "back": "正确\n《实施条例》第46条。",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-038",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：进出非机动车道、掉头、转弯、下陡坡时，最高车速不得超过 30km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-039",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在冰雪、泥泞的道路上行驶时，最高车速不得超过 30km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-040",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：普通道路上遇雾、雨、雪、沙尘、冰雹，能见度在 50 米以内时，最高车速不得超过 30km/h。",
+      "back": "正确\n《实施条例》第46条（普通道路）。",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-041",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在高速公路上能见度小于 50 米时，车速不得超过 20km/h，并尽快从最近的出口驶离。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-042",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在高速公路上能见度小于 100 米时，车速不得超过 40km/h，与同车道前车保持 50 米以上距离。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-043",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在高速公路上能见度小于 200 米时，车速不得超过 60km/h，与同车道前车保持 100 米以上距离。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-044",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：高速公路上车速超过 100km/h 时，应与同车道前车保持多少米以上距离？\nA. 30 米\nB. 50 米\nC. 80 米\nD. 100 米",
+      "back": "答案：D（100 米）",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-045",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：高速公路上车速低于 100km/h 时，与前车距离可以少于 50 米。",
+      "back": "错误\n车速低于100km/h时，与前车距离不得少于50米。",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-046",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：牵引发生故障的机动车时，最高车速不得超过多少？\nA. 20km/h\nB. 30km/h\nC. 40km/h\nD. 50km/h",
+      "back": "答案：B（30km/h）",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-047",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：高速公路上同方向有 2 条车道的，左侧车道的最低车速为 100km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-048",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：高速公路上同方向有 3 条车道的，中间车道的最低车速为 90km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-049",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：高速公路上同方向有 3 条车道的，最左侧车道的最低车速为 110km/h。",
+      "back": "正确",
+      "tags": [
+        "限速"
+      ]
+    },
+    {
+      "id": "c-kemu1-050",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：夜间会车应当在距相对方向来车 150 米以外改用近光灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-051",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：雾天行车应开启雾灯和危险报警闪光灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-052",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：夜间在没有路灯、照明不良的道路上行驶，应开启前照灯、示廓灯和后位灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-053",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车转弯、变更车道、靠边停车、掉头前，应当提前开启转向灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-054",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：夜间通过急弯、坡路、拱桥、人行横道或者没有交通信号灯控制的路口，应当交替使用远近光灯示意。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-055",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车在道路上临时停车时，应当开启危险报警闪光灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-056",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：夜间行车，同方向行驶的后车与前车近距离行驶时，应当？\nA. 使用远光灯\nB. 使用近光灯\nC. 关闭灯光\nD. 使用雾灯",
+      "back": "答案：B（使用近光灯）",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-057",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：绿灯亮时，准许车辆通行，但转弯车辆不得妨碍被放行的直行车辆、行人通行。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-058",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：黄灯亮时，已越过停止线的车辆可以继续通行。",
+      "back": "正确\n未越过停止线的车辆应停在停止线以内等待。",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-059",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：黄灯亮时，未越过停止线的车辆应停在停止线以内等待，不得继续通行。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-060",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：圆形红灯亮时，右转弯车辆在不妨碍被放行的车辆、行人通行的情况下，可以通行。",
+      "back": "正确\n箭头式右转红灯亮时不得右转。",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-061",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：箭头式右转红灯亮时，右转弯车辆不得通行。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-062",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：红灯亮时，车辆应停在停止线以外等候。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-063",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：人行横道信号灯绿灯亮时，行人可以通过；红灯亮时，行人禁止通行。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-064",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：黄色交通标志一般是警告标志，作用是警告车辆、行人注意危险地点。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-065",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：红色交通标志一般是禁令标志，作用是禁止或限制车辆、行人交通行为。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-066",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：蓝色交通标志一般是指示标志，作用是指示车辆、行人行进。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-067",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：八角形红色标志是「停车让行」标志。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-068",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：倒三角形红边标志是「减速让行」标志。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-069",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：蓝底白字或绿底白字的标志属于指路标志，用于指示方向、地点、距离等信息。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-070",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：警告标志的作用是？\nA. 禁止车辆通行\nB. 警告车辆、行人注意危险地点，提前减速\nC. 指示行进方向\nD. 表示道路施工",
+      "back": "答案：B",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-071",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：禁令标志的作用是？\nA. 指示行进方向\nB. 警告危险地点\nC. 禁止或限制车辆、行人交通行为\nD. 指示停车",
+      "back": "答案：C",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-072",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：通过人行横道遇行人正在通过时，应当停车让行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-073",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：转弯的机动车让直行的车辆先行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-074",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：相对方向行驶的右转弯机动车让左转弯车辆先行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-075",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车通过没有交通信号灯控制也没有交警指挥的交叉路口，应让右侧道路的来车先行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-076",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：遇前方车辆缓慢行驶、排队等候时，不得穿插等候的车辆。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-077",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶机动车下陡坡时，不得熄火或空挡滑行。",
+      "back": "正确\n空挡滑行会失去发动机制动。",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-078",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶人和乘车人都应当按规定使用安全带。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-079",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：雨、雪天气路面湿滑，制动距离会延长。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-080",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：行车中遇儿童、老年人横过道路，应当减速慢行、必要时停车让行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-081",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：超车时应当从前车的左侧超越。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-082",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：变更车道时，应提前开启转向灯，观察后视镜，确认安全后变更。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-083",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：夜间会车时对方不关闭远光灯，我方应减速靠右行驶，必要时停车避让。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-084",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：通过没有交通信号灯控制的路口，应减速慢行，让行人和优先通行的车辆先行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-085",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：遇前方交叉路口交通阻塞时，应依次停在路口以外等候，不得进入路口。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-086",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶机动车不得连续驾驶超过 4 小时未停车休息。",
+      "back": "正确\n停车休息不少于20分钟。",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-087",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：连续驾驶机动车超过 4 小时，应停车休息不少于多少分钟？\nA. 5 分钟\nB. 10 分钟\nC. 20 分钟\nD. 30 分钟",
+      "back": "答案：C（20 分钟）",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-088",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车行经漫水路或漫水桥时，应停车察明水情，确认安全后低速通过。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-089",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在没有禁止掉头标志标线的地点掉头，不得妨碍正常行驶的其他车辆和行人。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-090",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在高速公路上发生故障，应在来车方向 150 米以外设置警告标志。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-091",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在普通道路上发生故障，警告标志应设置在车后 50 米至 100 米处。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-092",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车在道路上发生故障，应开启危险报警闪光灯，并设置警告标志。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-093",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：轮胎爆裂时，应紧握方向盘，缓慢减速，不得急踩刹车。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-094",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：制动失灵时，应尽量利用发动机制动和驻车制动器减速。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-095",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：行车中发现转向失控，应立即减速，开启危险报警闪光灯，靠边停车。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-096",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：雨天涉水行驶后，应低速行驶并轻踩制动踏板，以恢复制动效能。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-097",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：除执行紧急任务的车辆外，其他车辆不得在应急车道内行驶或停车。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-098",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在高速公路上遇前方道路堵塞时，不得占用应急车道。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-099",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶机动车发生交通事故，应当立即停车、保护现场，并迅速报警。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-100",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：造成人身伤亡的交通事故，应当立即抢救受伤人员，并迅速报警。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-101",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车所有人、管理人未按规定投保交强险的，由公安机关扣留车辆至依法投保。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-102",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶机动车上道路行驶，不得超过限速标志标明的最高时速。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-103",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在没有限速标志、标线的道路上，应当保持安全车速。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-104",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车行经没有交通信号的道路时，遇行人横过道路，应当避让。",
+      "back": "正确",
+      "tags": [
+        "法律法规"
+      ]
+    },
+    {
+      "id": "c-kemu1-105",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶证在实习期内被记满 12 分的，注销其实习的准驾车型驾驶资格。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-106",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车驾驶人应当于驾驶证有效期满前 90 日内申请换证。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-107",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶证被暂扣期间，不得驾驶机动车。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-108",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：70 周岁以上的驾驶人应当每年进行一次身体检查并提交身体条件证明。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-109",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驾驶人补领驾驶证后，原驾驶证作废，不得继续使用。",
+      "back": "正确",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-110",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶证有效期满，应在期满前多少日内申请换证？\nA. 30 日\nB. 60 日\nC. 90 日\nD. 180 日",
+      "back": "答案：C（90 日）",
+      "tags": [
+        "驾驶证"
+      ]
+    },
+    {
+      "id": "c-kemu1-111",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：机动车驾驶证被暂扣或者扣留期间驾驶机动车，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：B（6 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-112",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车在高速公路、城市快速路上违法停车，一次记几分？\nA. 3 分\nB. 6 分\nC. 9 分\nD. 12 分",
+      "back": "答案：C（9 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-113",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：驾驶机动车不按规定会车，一次记几分？\nA. 1 分\nB. 3 分\nC. 6 分\nD. 9 分",
+      "back": "答案：A（1 分）",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-114",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：代替实际驾驶人接受交通违法处罚和记分牟取经济利益的，一次记 12 分。",
+      "back": "正确",
+      "tags": [
+        "记分"
+      ]
+    },
+    {
+      "id": "c-kemu1-115",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在隧道内行驶时，应开启近光灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-116",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：夜间在窄路、窄桥与非机动车会车时，应使用近光灯。",
+      "back": "正确",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-117",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：机动车驶入隧道前，应当？\nA. 提前减速，开启近光灯\nB. 加速通过\nC. 开启远光灯\nD. 鸣喇叭通过",
+      "back": "答案：A",
+      "tags": [
+        "灯光"
+      ]
+    },
+    {
+      "id": "c-kemu1-118",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：交通信号灯由红灯、绿灯、黄灯组成。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-119",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：红灯表示禁止通行，绿灯表示准许通行，黄灯表示警示。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-120",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在设有交通信号灯的路口，右转弯车辆遇同向前方直行车辆正在被放行时，应让其先行。",
+      "back": "正确",
+      "tags": [
+        "交通信号"
+      ]
+    },
+    {
+      "id": "c-kemu1-121",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：红色圆圈内一条白色横杠的标志表示「禁止驶入」。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-122",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：蓝色圆形内白色直行箭头的标志表示「直行」。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-123",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：黄色三角内黑色感叹号的标志表示「注意危险」。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-124",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：白底红圈内写有数字的标志表示「最高限速」。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-125",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：红圈红斜杠白底的标志表示禁止某种交通行为。",
+      "back": "正确",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-126",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "单选：「禁止驶入」标志通常是什么形状？\nA. 红色圆圈内一条白色横杠\nB. 蓝色圆形\nC. 黄色三角形\nD. 绿色长方形",
+      "back": "答案：A",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-127",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：通过学校门口、人行横道等，应当减速慢行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-128",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：行车中发现行人突然横穿道路，应当立即减速、必要时停车避让。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-129",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：跟车行驶时，应与前车保持足够的安全距离。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-130",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驶离高速公路时，应提前开启右转向灯，减速进入减速车道。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-131",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：进入高速公路时，应开启左转向灯，从加速车道并入行车道。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-132",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：车辆在高速公路匝道上行驶，不得超过匝道限速标志标明的车速。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-133",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车在高速公路上不得倒车、逆行、穿越中央分隔带掉头。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-134",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机动车在高速公路上不得在匝道、加速车道或减速车道上超车。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-135",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：进入环形路口的车辆应让已在路口内的机动车先行。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-136",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：在冰雪路面上行驶时，应减速慢行，保持安全车距，避免急刹车、急转向。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-137",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：雾天行驶应降低车速，加大跟车距离。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-138",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：雨天路面湿滑，应降低车速，避免紧急制动。",
+      "back": "正确",
+      "tags": [
+        "安全驾驶"
+      ]
+    },
+    {
+      "id": "c-kemu1-139",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：行车前应当检查车辆制动、转向、灯光、轮胎等安全状况。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-140",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：机油压力报警灯亮时，应立即停车检查。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-141",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：水温过高报警灯亮时，应靠边停车，让发动机怠速运转降温。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-142",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：蓄电池充电指示灯亮时，说明充电系统可能发生故障。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-143",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：发动机过热时，不得立即打开散热器盖，以免烫伤。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-144",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：驻车制动器应拉紧到位，防止车辆溜车。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-145",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：车辆起步前，应观察周围交通情况，确认安全后起步。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-146",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "判断：停车后离开车辆时，应关闭点火开关，拉紧驻车制动器，锁好车门。",
+      "back": "正确",
+      "tags": [
+        "操作常识"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-01",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 停车让行\nB. 减速让行\nC. 禁止停车\nD. 禁止通行",
+      "back": "答案：A\n红色八角形标志是「停车让行」，应在停止线前停车瞭望，确认安全后通过。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjQwLDggODAsOCAxMTIsNDAgMTEyLDgwIDgwLDExMiA0MCwxMTIgOCw4MCA4LDQwIiBmaWxsPSIjZDUwMDAwIi8+PHRleHQgeD0iNjAiIHk9Ijc0IiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPuWBnDwvdGV4dD48L3N2Zz4=",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjQwLDggODAsOCAxMTIsNDAgMTEyLDgwIDgwLDExMiA0MCwxMTIgOCw4MCA4LDQwIiBmaWxsPSIjZDUwMDAwIi8+PHRleHQgeD0iNjAiIHk9Ijc0IiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPuWBnDwvdGV4dD48L3N2Zz4=",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-02",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 停车让行\nB. 减速让行\nC. 禁止驶入\nD. 注意危险",
+      "back": "答案：B\n倒三角形红边标志是「减速让行」，应减速或停车，让干道车辆先行。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjEwLDE2IDExMCwxNiA2MCwxMDQiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2Q1MDAwMCIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iNjAiIHk9Ijc4IiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPuiuqTwvdGV4dD48L3N2Zz4=",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjEwLDE2IDExMCwxNiA2MCwxMDQiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2Q1MDAwMCIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iNjAiIHk9Ijc4IiBmb250LXNpemU9IjMwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPuiuqTwvdGV4dD48L3N2Zz4=",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-03",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 禁止通行\nB. 禁止停车\nC. 禁止驶入\nD. 禁止超车",
+      "back": "答案：C\n红色圆圈内一条白色横杠是「禁止驶入」，表示禁止车辆驶入。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2Q1MDAwMCIvPjxyZWN0IHg9IjI4IiB5PSI1MyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjE0IiBmaWxsPSIjZmZmIi8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2Q1MDAwMCIvPjxyZWN0IHg9IjI4IiB5PSI1MyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjE0IiBmaWxsPSIjZmZmIi8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-04",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 禁止通行\nB. 禁止驶入\nC. 禁止停车\nD. 禁止掉头",
+      "back": "答案：A\n红色圆圈（无横杠）是「禁止通行」，表示禁止一切车辆和行人通行。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2Q1MDAwMCIvPjxjaXJjbGUgY3g9IjYwIiBjeT0iNjAiIHI9IjI4IiBmaWxsPSIjZmZmIi8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2Q1MDAwMCIvPjxjaXJjbGUgY3g9IjYwIiBjeT0iNjAiIHI9IjI4IiBmaWxsPSIjZmZmIi8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-05",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 向左转弯\nB. 直行\nC. 直行和向右\nD. 靠右侧行驶",
+      "back": "答案：B\n蓝色圆形内白色向上箭头是「直行」，表示只准车辆直行。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iIzE1NjVjMCIvPjxwb2x5Z29uIHBvaW50cz0iNjAsMjYgNDYsNTIgNTQsNTIgNTQsODggNjYsODggNjYsNTIgNzQsNTIiIGZpbGw9IiNmZmYiLz48L3N2Zz4=",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iIzE1NjVjMCIvPjxwb2x5Z29uIHBvaW50cz0iNjAsMjYgNDYsNTIgNTQsNTIgNTQsODggNjYsODggNjYsNTIgNzQsNTIiIGZpbGw9IiNmZmYiLz48L3N2Zz4=",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-06",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 直行\nB. 向右转弯\nC. 向左转弯\nD. 靠左侧行驶",
+      "back": "答案：C\n蓝色圆形内向左箭头是「向左转弯」，表示只准车辆向左转弯。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iIzE1NjVjMCIvPjxyZWN0IHg9IjUzIiB5PSI0NiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQwIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjgiIHk9IjQ2IiB3aWR0aD0iMzkiIGhlaWdodD0iMTQiIGZpbGw9IiNmZmYiLz48cG9seWdvbiBwb2ludHM9IjEyLDUzIDI4LDQ1IDI4LDYxIiBmaWxsPSIjZmZmIi8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iIzE1NjVjMCIvPjxyZWN0IHg9IjUzIiB5PSI0NiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQwIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iMjgiIHk9IjQ2IiB3aWR0aD0iMzkiIGhlaWdodD0iMTQiIGZpbGw9IiNmZmYiLz48cG9seWdvbiBwb2ludHM9IjEyLDUzIDI4LDQ1IDI4LDYxIiBmaWxsPSIjZmZmIi8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-07",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 向右转弯\nB. 直行\nC. 向左转弯\nD. 环岛行驶",
+      "back": "答案：A\n蓝色圆形内向右箭头是「向右转弯」，表示只准车辆向右转弯。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iIzE1NjVjMCIvPjxyZWN0IHg9IjUzIiB5PSI0NiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQwIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNTMiIHk9IjQ2IiB3aWR0aD0iMzkiIGhlaWdodD0iMTQiIGZpbGw9IiNmZmYiLz48cG9seWdvbiBwb2ludHM9IjEwOCw1MyA5Miw0NSA5Miw2MSIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iIzE1NjVjMCIvPjxyZWN0IHg9IjUzIiB5PSI0NiIgd2lkdGg9IjE0IiBoZWlnaHQ9IjQwIiBmaWxsPSIjZmZmIi8+PHJlY3QgeD0iNTMiIHk9IjQ2IiB3aWR0aD0iMzkiIGhlaWdodD0iMTQiIGZpbGw9IiNmZmYiLz48cG9seWdvbiBwb2ludHM9IjEwOCw1MyA5Miw0NSA5Miw2MSIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-08",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 最低限速 40\nB. 最高限速 40\nC. 建议速度 40\nD. 解除限速",
+      "back": "答案：B\n白底红圈内数字是「限制速度」，表示最高车速不得超过 40km/h。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjgiLz48dGV4dCB4PSI2MCIgeT0iNzQiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+NDA8L3RleHQ+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjgiLz48dGV4dCB4PSI2MCIgeT0iNzQiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+NDA8L3RleHQ+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-09",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 解除限制速度\nB. 限制速度\nC. 禁止超车\nD. 禁止通行",
+      "back": "答案：A\n白底黑斜杠（无红圈）是「解除限制速度」，表示解除前方限速。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjQiLz48bGluZSB4MT0iMjYiIHkxPSI5NCIgeDI9Ijk0IiB5Mj0iMjYiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSI4Ii8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjQiLz48bGluZSB4MT0iMjYiIHkxPSI5NCIgeDI9Ijk0IiB5Mj0iMjYiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSI4Ii8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-10",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 注意信号灯\nB. 注意儿童\nC. 注意危险\nD. 注意行人",
+      "back": "答案：C\n黄色三角内黑色感叹号是「注意危险」，提醒注意前方危险。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjYwLDEwIDExMiwxMDAgOCwxMDAiIGZpbGw9IiNmZmMxMDciIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iNjAiIHk9IjgyIiBmb250LXNpemU9IjUwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPiE8L3RleHQ+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjYwLDEwIDExMiwxMDAgOCwxMDAiIGZpbGw9IiNmZmMxMDciIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHRleHQgeD0iNjAiIHk9IjgyIiBmb250LXNpemU9IjUwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPiE8L3RleHQ+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-11",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 注意危险\nB. 注意信号灯\nC. 环岛行驶\nD. 注意行人",
+      "back": "答案：B\n黄色三角内黑色信号灯是「注意信号灯」，提醒前方有信号灯路口。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjYwLDEwIDExMiwxMDAgOCwxMDAiIGZpbGw9IiNmZmMxMDciIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHJlY3QgeD0iNDQiIHk9IjQyIiB3aWR0aD0iMzIiIGhlaWdodD0iNTYiIHJ4PSI0IiBmaWxsPSIjMDAwIi8+PGNpcmNsZSBjeD0iNjAiIGN5PSI1NiIgcj0iNyIgZmlsbD0iI2Q1MDAwMCIvPjxjaXJjbGUgY3g9IjYwIiBjeT0iNzAiIHI9IjciIGZpbGw9IiNmZmMxMDciLz48Y2lyY2xlIGN4PSI2MCIgY3k9Ijg0IiByPSI3IiBmaWxsPSIjNGNhZjUwIi8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cG9seWdvbiBwb2ludHM9IjYwLDEwIDExMiwxMDAgOCwxMDAiIGZpbGw9IiNmZmMxMDciIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHJlY3QgeD0iNDQiIHk9IjQyIiB3aWR0aD0iMzIiIGhlaWdodD0iNTYiIHJ4PSI0IiBmaWxsPSIjMDAwIi8+PGNpcmNsZSBjeD0iNjAiIGN5PSI1NiIgcj0iNyIgZmlsbD0iI2Q1MDAwMCIvPjxjaXJjbGUgY3g9IjYwIiBjeT0iNzAiIHI9IjciIGZpbGw9IiNmZmMxMDciLz48Y2lyY2xlIGN4PSI2MCIgY3k9Ijg0IiByPSI3IiBmaWxsPSIjNGNhZjUwIi8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-12",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 禁止右转\nB. 禁止左转\nC. 禁止掉头\nD. 禁止直行",
+      "back": "答案：B\n红圈内左转箭头加斜杠是「禁止向左转弯」。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjgiLz48cGF0aCBkPSJNODAsNjAgTDQwLDYwIE00MCw2MCBMNTIsNDggTTQwLDYwIEw1Miw3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxsaW5lIHgxPSIyNiIgeTE9Ijk0IiB4Mj0iOTQiIHkyPSIyNiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjEwIi8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjgiLz48cGF0aCBkPSJNODAsNjAgTDQwLDYwIE00MCw2MCBMNTIsNDggTTQwLDYwIEw1Miw3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxsaW5lIHgxPSIyNiIgeTE9Ijk0IiB4Mj0iOTQiIHkyPSIyNiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjEwIi8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    },
+    {
+      "id": "c-kemu1-sign-13",
+      "deckId": "deck-kemu1",
+      "type": "basic",
+      "front": "看图：这个标志表示什么？\nA. 禁止左转\nB. 禁止直行\nC. 禁止掉头\nD. 禁止右转",
+      "back": "答案：D\n红圈内右转箭头加斜杠是「禁止向右转弯」。",
+      "frontImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjgiLz48cGF0aCBkPSJNNDAsNjAgTDgwLDYwIE04MCw2MCBMNjgsNDggTTgwLDYwIEw2OCw3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxsaW5lIHgxPSIyNiIgeTE9Ijk0IiB4Mj0iOTQiIHkyPSIyNiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjEwIi8+PC9zdmc+",
+      "backImage": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjgiLz48cGF0aCBkPSJNNDAsNjAgTDgwLDYwIE04MCw2MCBMNjgsNDggTTgwLDYwIEw2OCw3MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxsaW5lIHgxPSIyNiIgeTE9Ijk0IiB4Mj0iOTQiIHkyPSIyNiIgc3Ryb2tlPSIjZDUwMDAwIiBzdHJva2Utd2lkdGg9IjEwIi8+PC9zdmc+",
+      "tags": [
+        "交通标志"
+      ]
+    }
+  ]
+}
